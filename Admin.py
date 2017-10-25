@@ -8,3 +8,7 @@ class Admin(Employee):
     
   def work(self):
       return "Hire!"
+
+admin1 = Admin.Admin("Pama", "CI", 500000, "Andela")
+
+print(admin1.work())

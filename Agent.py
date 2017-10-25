@@ -8,3 +8,7 @@ class Agent(Employee):
 
   def work(self):
       return "Crawl!"
+      
+agent1 = Agent("Joe", "try", 450000, "Gar2")
+
+print(agent1.work())
